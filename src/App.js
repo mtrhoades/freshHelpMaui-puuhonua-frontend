@@ -7,9 +7,9 @@ import Menu from './components/Menu.js';
 function App() {
   return (
     <div className="App">
-      <img src={freshHelpMauiLogo}></img>
+      <img src={freshHelpMauiLogo} alt="fresh help maui logo, fish hook"></img>
       <h2>Provides Meals For</h2>
-      <img src={puuhonuaLogo}></img>
+      <img src={puuhonuaLogo} alt="Pu'uhonua o Nene camp logo, a safe space of refuge"></img>
       <Menu />
     </div>
   );
